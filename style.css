@@ -12,7 +12,7 @@ html, body {
 }
 
 header {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ header img {
 }
 
 nav {
-  max-width: 900px;
+  max-width: 1000px;
   background-color: #205081;
   font-size: 16px;
   max-height: 64px;
@@ -70,7 +70,7 @@ ul a:hover {
 }
 
 main {
-  max-width: 896px;
+  max-width: 996px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -106,7 +106,7 @@ main h2, h3 {
 }
 
 footer {
-  max-width: 896px;
+  max-width: 996px;
   margin: 0 auto;
   border: black solid 2px;
   border-top: none;
