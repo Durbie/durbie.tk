@@ -89,6 +89,11 @@ main h2, h3 {
   margin: 0 auto;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 .post-title{
   text-align: center;
 }
