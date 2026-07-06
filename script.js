@@ -1,5 +1,5 @@
 getLastUpdated = async () => {
-    const url = 'https://api.github.com/repos/TheDurbie/durbie.tk';
+    const url = 'https://api.github.com/repos/Durbie/durbie.tk';
 
 fetch(url)
     .then(response => response.json())
