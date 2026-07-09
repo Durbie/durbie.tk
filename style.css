@@ -47,12 +47,12 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul a {
+a {
   color: white;
   text-decoration: none;
 }
 
-ul a:hover {
+a:hover {
   color: white;
   text-decoration: underline;
 }
@@ -85,7 +85,7 @@ p, .post-meta span {
 }
 
 main h2, h3 {
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
