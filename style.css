@@ -73,6 +73,7 @@ main {
   max-width: 996px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 5px;
   padding-bottom: 30px;
   border: black solid 2px;
   border-top: none;
@@ -80,8 +81,8 @@ main {
   background-color: #323232;
 }
 
-p, .post-meta span {
-  font-weight: bold;
+main h1 {
+  font-size: 48px;
 }
 
 main h2, h3 {
@@ -119,6 +120,29 @@ footer span{
   border: 0;
 }
 
+.preview {
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding-left: 2px;
+  width: 750px;
+  border: 4px solid black;
+  background-color: #205081;
+  text-align: left;
+  color: white;
+  font-style: bold;
+}
+
+.p-title{
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.p-body {
+  font-style: none;
+  font-size: 18px;
+  margin: 0;
+}
 
 
 /* Mobile devices */
