@@ -85,6 +85,10 @@ main h1 {
   font-size: 48px;
 }
 
+main h2 {
+  font-size: 24px;
+}
+
 main h2, h3 {
   max-width: 720px;
   margin: 0 auto;
