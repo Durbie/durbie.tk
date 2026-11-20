@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="The place for everything TheDurbie related">
+  <meta name="description" content="The place for everything Durbie related">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - durbie.tk</title>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -14,42 +16,72 @@
 
 <body>
   <header>
-    <img src="img/banner.png" width="550px">
+    <img src="img/banner.png" width="550px" alt="Banner">
 
-      <nav>
-    <img id="logo" alt="Logo" src="img/logo.png">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="showcase">Showcase</a></li>
-      <li><a href="blog">Blog</a></li>
-    </ul>
-  
-    <div id="socials">
-      <span class="social-icon"><a href="https://www.youtube.com/@durbie"><img src="img/yt.png" width="36px"></a></span>
-      <span class="social-icon"><a href="https://x.com/TheDurbie"><img src="img/twt.png" width="36px"></a></span>
-    </div>
-  </nav>
+    <nav>
+      <img id="logo" alt="Logo" src="img/logo.png">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="showcase">Showcase</a></li>
+        <li><a href="blog">Blog</a></li>
+      </ul>
+
+      <div id="socials">
+        <span class="social-icon"><a href="https://www.youtube.com/@durbie"><img src="img/yt.png" width="36px"></a></span>
+        <span class="social-icon"><a href="https://x.com/TheDurbie"><img src="img/twt.png" width="36px"></a></span>
+      </div>
+    </nav>
 
   </header>
-  
+
   <main>
-    <h1>Welcome to durbie.tk</h1>
-    <br>
-    <h1 style="font-size: 38px;">UPDATE: SEPTEMBER 10, 2026</h1>
-    <br>
-    <h2>I am re-adding the blog page back to this website. I am also considering switching from Github Pages to Codeberg. I have not decided if I will do this migration at all, or if I will do it before or after adding the new blog system.</h2>
-    <br>
-    <br>
-    <h2>Hello and welcome to durbie.tk! This is the place for everything related to me.<br>This website is going through many changes. While I am being very lazy, I am working on it.<br><br>Thanks for visiting!</h2>
-    <br>
-    <h2 id="update">Last updated: n/A</h3>
-    <br>
-    <!--<iframe width="784" height="441" src="https://www.youtube.com/embed/mGScF2GpvXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
-    <img src="img/art.png" width="800px">
-    <h3>Art by <a href="https://x.com/rayherogaming">Rayhero</a></h3>
+    <div id="left">
+      <h1>Welcome!</h1>
+      <h2>Hello and welcome to durbie.tk! This is the place for everything related to me.<br>This website is going
+        through many changes. While I am being very lazy, I am working on it.<br><br>Thanks for visiting!</h2>
+      <br>
+      <h2 id="update">Last updated: n/A</h3>
+<br>
+
+      <img src="img/art.png" width="520px"> <!-- probably should add alt text eventually-->
+
+    </div>
+
+    <div id="right">
+      <!--<iframe width="784" height="441" src="https://www.youtube.com/embed/mGScF2GpvXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+            <table>
+          <tbody>
+            <tr>
+              <td class="table-title">General</td>
+              <td class="table-text">iPods<br>Tech<br>LEGO Island</td>
+            </tr>
+            <tr>
+              <td class="table-title">Music</td>
+              <td class="table-text">Bo Burnham<br>Ye<br>Eminem</td>
+            </tr>
+            <tr>
+              <td class="table-title">Movies</td>
+              <td class="table-text">Backrooms<br>Spider-Man<br>Eighth Grade<br>Steve Jobs<br>Tetris</td>
+            </tr>
+            <tr>
+              <td class="table-title">Television</td>
+              <td class="table-text">Zach Stone is Gonna Be Famous<br>Severance<br>South Park</td>
+            </tr>
+            <tr>
+              <td class="table-title">Books</td>
+              <td class="table-text">Egghead: Or, You Can't Survive on Ideas Alone</td>
+            </tr>
+            <tr>
+              <td class="table-title">Heroes</td>
+              <td class="table-text">Bo Burnham<br>Wes Jenkins<br>Scott Anderson<br>Steve Jobs<br>Edd Gould</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </main>
-  <footer><span>Made by Durbie. &copy; 2026 All rights reserved.</span></footer>
+  <footer><span>Made by Durbie. &copy; 2026 All rights reserved.</span></footer> <!-- rework <span> to <p> -->
 
   <script src="script.js"></script>
 </body>
+
 </html>
