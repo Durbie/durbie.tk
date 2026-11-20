@@ -4,7 +4,7 @@ getLastUpdated = async () => {
 fetch(url)
     .then(response => response.json())
     .then(data => {
-        const date = new Date(data.updated_at);
+        const date = new Date(data.pushed_at);
         
         const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", 
                             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -29,7 +29,7 @@ fetch(url)
 
 main = async () => {
     await getLastUpdated();
-    await fetchLatestBlogs();
+    //await fetchLatestBlogs();
 }
 
 main();
