@@ -7,9 +7,16 @@ main {
   main {
     height: auto;
     width: 100vw;
+    text-align: left;
   }
 
   main h2{
     width: auto;
+  }
+
+  main img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 35px;
   }
 }
