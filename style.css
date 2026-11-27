@@ -261,6 +261,11 @@ footer span{
 
   nav {
     font-size: 14px;
+    width: 100vw;
+  }
+  
+  footer {
+    width: 100vw;
   }
 
   ul {
@@ -272,7 +277,7 @@ footer span{
     width: 100vw;
   }
 
-  #preview {
+  .preview {
     width: 100vw;
   }
 
