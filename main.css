@@ -2,3 +2,14 @@ main {
   height: 765px;
   text-align: left;
 }
+
+@media screen and (max-width: 1000px) {
+  main {
+    height: auto;
+    width: 100vw;
+  }
+
+  main h2{
+    width: auto;
+  }
+}

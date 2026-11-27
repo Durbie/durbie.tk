@@ -209,7 +209,7 @@ footer span{
 
 /* i hate coding for non desktop */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   main {
     width: 100vw;
   }
@@ -219,7 +219,7 @@ footer span{
   }
 
   main h2 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
  /* maybe reuse for when less than 900 but use others for less than 500. slighlty less than 900 just makes the left and right div smaller while even smaller screens use the old layout.
@@ -241,7 +241,8 @@ footer span{
     width: 100vw;
   }
 
-  #right, table {
+  #right {
+    height: auto;
     margin-top: 30px;
   }
 
@@ -268,7 +269,11 @@ footer span{
   }
 
   main {
-    padding: 15px;
+    width: 100vw;
+  }
+
+  #preview {
+    width: 100vw;
   }
 
   main h1 {
