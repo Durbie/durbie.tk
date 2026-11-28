@@ -257,6 +257,10 @@ footer span{
     width: 80vw;
   }
 
+.table-text {
+    width: 275px;
+}
+
 }
 
 @media screen and (max-width: 750px) {
